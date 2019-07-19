@@ -57,7 +57,7 @@ clean.bat
   Analogous to 'make clean' target
 
 cygwin.txt
-  Build notes for LaTeX using cygwin.
+  Build notes for LaTeX using cygwin
 
 docs/
   Documentation
