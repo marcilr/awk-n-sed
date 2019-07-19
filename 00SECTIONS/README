@@ -24,6 +24,11 @@ sections.txt
   LaTeX document sections.  Thinks this is the best way to
   create a flexible modular document.
 
+tables.tex
+  Tables
+  Initially copied from:
+    git/tex/svn-to-git/00SECTIONS/tables.tex
+
 titlepage.tex
   Title page
   Initialily copied from:
