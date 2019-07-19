@@ -1,0 +1,14 @@
+TODO
+Created Fri Jul 19 09:39:12 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
++++ Fri Jul 19 09:39:12 AKDT 2019 - Get one minor latex build error:
+$ *** BUG ***
+In pixman_region32_init_rect: Invalid rectangle passed
+Set a breakpoint on '_pixman_log_error' to debug
+
+
+$
+
+Documentation build but uncertain what causes the above.
