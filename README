@@ -41,6 +41,12 @@ Filelist
   LaTeX document sections.  Thinks this is the best way to
   create a flexible modular document.
 
+awk-n-sed.pdf
+  awk and sed compiled to portable document format file.
+
+awk-n-sed.tex
+  awk and sed documentation
+
 build.xml
   Ant build.xml to compile LaTeX file crafted by Jason Kattell at
   DNR LRIS BPU.  He used the ant apply task to make it a bit more
@@ -70,12 +76,6 @@ make.bat
 
 Makefile
   Standard GNU makefile to build LaTeX document.
-
-template.pdf
-  LaTeX Template with Examples compiled to portable document format file.
-
-template.tex
-  LaTeX Template with Examples
 
 TODO
   Items for template
