@@ -5,6 +5,11 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+abbreviatins.tex
+  Abbreviations
+  Initially copied from:
+    git/tex/svn-to-git/00SECTIONS/abbreviations.tex
+
 content.tex
   Content
   Initially copied from:
