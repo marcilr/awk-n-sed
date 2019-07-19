@@ -5,4 +5,6 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
-
+sections.txt
+  LaTeX document sections.  Thinks this is the best way to
+  create a flexible modular document.
