@@ -3,6 +3,26 @@ Created Fri Jul 19 09:39:12 AKDT 2019
 Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 
++++ Fri Jul 19 10:07:21 AKDT 2019 - Get \lipsum during latex build:
+
+) (./00SECTIONS/abbreviations.tex [5]
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd))
+(./00SECTIONS/introduction.tex [6]) (./00SECTIONS/body.tex [7]
+! Undefined control sequence.
+l.16 \lipsum
+            [1]
+? 
+
+lipsum is definitely a latex package:
+  lipsum – Easy access to the Lorem Ipsum dummy text
+
+  This pack­age gives you easy ac­cess to the Lorem Ip­sum
+  dummy text; an opion is avail­able to sep­a­rate the
+  paragraphs of the dummy text into TEX-para­graphs.
+
+  All the para­graphs are taken with per­mis­sion from
+  http://lip­sum.com/.
+
 +++ Fri Jul 19 09:39:12 AKDT 2019 - Get one minor latex build error:
 $ *** BUG ***
 In pixman_region32_init_rect: Invalid rectangle passed
@@ -12,3 +32,9 @@ Set a breakpoint on '_pixman_log_error' to debug
 $
 
 Documentation build but uncertain what causes the above.
+
+Not:
+  \input{00SECTIONS/titlepage.tex}
+  \input{00SECTIONS/contents.tex}
+
+  \input{00SECTIONS/introduction.tex}  
